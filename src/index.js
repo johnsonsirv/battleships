@@ -6,7 +6,7 @@ import AI from './ai';
 let gameOver = false;
 UI.generateBoard();
 
-// Place ships
+// Place ships on waters
 const humanWaters = GameBoard();
 const computerWaters = GameBoard();
 
