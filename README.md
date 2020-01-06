@@ -1,4 +1,4 @@
-[![Netlify Status](https://api.netlify.com/api/v1/badges/c9424649-60c1-4860-aeb2-a1dfede32144/deploy-status)](https://app.netlify.com/sites/battleships-game-js/deploys)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/c9424649-60c1-4860-aeb2-a1dfede32144/deploy-status)](https://app.netlify.com/sites/battleships-game/deploys)
 
 <h1>Battleships Game</h1>
 <p>
@@ -23,7 +23,7 @@
 
 This project was completed in line with standards provided by [Microverse](https://www.microverse.org/ "The Global School for Remote Software Developers!").
 
-### See [Live Demo]()
+### See [Live Demo](https://battleships-game.netlify.com/)
 
 ## Basic Tests
 Tests cover basic features to validate ``Computer AI player``, ``Ship`` and ``Gameboard``.
