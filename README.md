@@ -25,6 +25,9 @@ This project was completed in line with standards provided by [Microverse](https
 
 ### See [Live Demo]()
 
+## Basic Tests
+Tests cover basic features to validate ``Computer AI player``, ``Ship`` and ``Gameboard``.
+
 ## Technologies
 
 - JavaScript (ES6)
@@ -47,6 +50,7 @@ $ git clone https://github.com/johnsonsirv/battleships.git
 ```sh
 $ cd battleships
 $ npm install
+$ npm run test
 $ npm run build
 $ npm run serve
 ```
