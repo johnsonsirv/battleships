@@ -1,7 +1,7 @@
 {
   "name": "battleships",
   "version": "1.0.0",
-  "description": "Battleships game built with Javascript",
+  "description": "Battleships game built with Javacript",
   "private": true,
   "scripts": {
     "test": "jest",

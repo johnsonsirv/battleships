@@ -1,4 +1,4 @@
-import '../scss/main.scss';
+import './scss/battleship.scss';
 import UI from './gameui';
 import GameBoard from './gameboard';
 import AI from './ai';
