@@ -1,0 +1,38 @@
+#board {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  height: 90vh;
+  margin: 0 auto;
+}
+
+#human,
+#computer {
+  display: grid;
+  grid-template-columns: repeat(10, 1fr);
+  grid-gap: 3px;
+  width: 45%;
+  background-color: orange;
+}
+
+.box {
+  background-color: grey;
+  width: 100%;
+  height: 100%;
+}
+
+.ship {
+  background-color: blue;
+}
+
+.hit {
+  background-color: pink;
+}
+
+.miss {
+  background-color: aqua;
+}
+
+.sunk {
+  background-color: red;
+}

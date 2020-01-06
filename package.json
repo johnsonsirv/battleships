@@ -1,8 +1,8 @@
 {
   "name": "battleships",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Battleships game built with Javascript",
+  "private": true,
   "scripts": {
     "test": "jest",
     "watch-jest": "jest --watchAll --passWithNoTests",
