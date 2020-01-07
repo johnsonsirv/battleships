@@ -6,7 +6,6 @@ import AI from './ai';
 let gameOver = false;
 UI.generateBoard();
 
-// Place ships on waters
 const humanWaters = GameBoard();
 const computerWaters = GameBoard();
 
@@ -61,7 +60,6 @@ const processPlayFeedback = ({ player, position, feedback }) => {
     root.querySelector(`[data-id="${position}"]`).classList.add(feedback);
   }
 
-  // Check game won?
   if (humanWaters.allShipsSunk()) {
     gameOver = true;
     UI.gameOver({ winner: 'computer' });
@@ -72,7 +70,7 @@ const processPlayFeedback = ({ player, position, feedback }) => {
   }
 };
 
-// Add event listeners
+
 const eventListener = () => {
   const root = document.querySelector('#computer');
   const boxes = root.querySelectorAll('div');
@@ -85,7 +83,6 @@ const eventListener = () => {
     if (feedback !== 'invalid' && feedback !== 'hit') {
       processPlayFeedback({ player: 'human', position, feedback });
 
-      // Pass turn to computer if game not over
       if (!humanWaters.allShipsSunk() && feedback === 'miss') {
         let isTurnOver = false;
 
