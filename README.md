@@ -1,5 +1,3 @@
-[![Netlify Status](https://api.netlify.com/api/v1/badges/c9424649-60c1-4860-aeb2-a1dfede32144/deploy-status)](https://app.netlify.com/sites/battleships-game/deploys)
-
 <h1>Battleships Game</h1>
 <p>
   <img alt="Version" src="https://img.shields.io/badge/version-1.0.0-blue.svg?cacheSeconds=2592000" />
@@ -15,6 +13,9 @@
   <a href="https://twitter.com/VOkeugo" target="_blank">
     <img alt="Twitter: VOkeugo" src="https://img.shields.io/twitter/follow/vokeugo.svg?style=social" />
   </a>
+
+  [![Netlify Status](https://api.netlify.com/api/v1/badges/c9424649-60c1-4860-aeb2-a1dfede32144/deploy-status)](https://app.netlify.com/sites/battleships-game/deploys)
+
 </p>
 
 <br>
@@ -56,6 +57,14 @@ $ npm run serve
 ```
 
 > Open `http://127.0.0.1:8080` using your favourite broswer.
+
+### Contributor(s)
+
+[Victor Okeugo](https://angel.co/u/victorokeugo/)
+
+- Github: [@johnsonsirv](https://github.com/johnsonsirv)
+- Twitter: [@vokeugo](https://twitter.com/@vokeugo/)
+- Email: [okeugo.victor.c@gmail.com]()
 
 ## How to Contribute
 
